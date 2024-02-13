@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: Azure Pipeline Agent Debug",
+            "preLaunchTask": "Build Agent",
+            "program": "${workspaceFolder}/_layout/linux-x64/run.sh",
+            "args": [],
+            "request": "launch",
+            "type": "coreclr"
+        }
+    ]
+}
